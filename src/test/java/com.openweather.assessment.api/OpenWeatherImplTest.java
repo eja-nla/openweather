@@ -49,7 +49,17 @@ public class OpenWeatherImplTest {
         map.put("94040", "us");
         map.put("11201", "us");
         map.put("75206", "us");
+        map.put("04662", "us");
+        map.put("14738", "us");
+        map.put("68023", "us");
+        map.put("17563", "us");
+        map.put("92704", "us");
+        map.put("48637", "us");
+        map.put("84003", "us");
+        map.put("28119", "us");
+        map.put("05488", "us");
+        map.put("30022", "us");
         List<WeatherData> result = weatherApi.lookupByZipCodes(map);
-        Assert.assertEquals(3, result.size());
+        Assert.assertEquals(13, result.size());
     }
 }

@@ -15,6 +15,7 @@ public class WeatherData {
     private Wind wind;
 
     private Rain rain;
+    private Snow snow;
     private Clouds clouds;
     private long dt;
     private Sys sys;
@@ -138,5 +139,13 @@ public class WeatherData {
 
     public void setRain(Rain rain) {
         this.rain = rain;
+    }
+
+    public Snow getSnow() {
+        return snow;
+    }
+
+    public void setSnow(Snow snow) {
+        this.snow = snow;
     }
 }
