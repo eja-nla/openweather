@@ -24,6 +24,8 @@ public class WeatherData {
     private String name;
     private long cod;
 
+    private String message;
+
     /**
      *
      * @return
@@ -147,5 +149,13 @@ public class WeatherData {
 
     public void setSnow(Snow snow) {
         this.snow = snow;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
